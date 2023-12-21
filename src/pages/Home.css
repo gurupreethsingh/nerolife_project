@@ -1,0 +1,11 @@
+.firstright, .firstleft{
+      width: 50%;
+}
+
+@media screen and (max-width : 600px) {
+      .firstright, .firstleft{
+            width: 100%;
+      }
+
+      .firstleft{ text-align: center;}
+}

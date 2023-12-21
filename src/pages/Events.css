@@ -1,0 +1,12 @@
+.eventright, .eventleft{
+      width: 45%;
+}
+
+@media screen and (max-width : 600px) {
+      .eventright, .eventleft{
+            width: 100%;
+            
+      }
+
+      .eventleft{ margin-bottom: 30px;}
+}

@@ -1,0 +1,15 @@
+.aboutleft{ width: 30%;  border-right: 2px solid black;}
+
+.aboutright{ width: 70%;}
+
+.aboutintro{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+
+     .aboutleft{ width: 100%; border: none;}
+
+     .aboutright{ width: 100%;} 
+}
